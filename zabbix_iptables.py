@@ -10,6 +10,7 @@ import re
 from subprocess import run, PIPE, STDOUT
 
 BASE = 1024
+IPTABLES = '/sbin/iptables'
 
 
 def execute(cmd, stdout=PIPE, stderr=STDOUT, encoding='utf-8', shell=False, *args, **kwargs):
@@ -40,7 +41,7 @@ def get_items():
     p3 = re.compile('/\* ZABBIX (?P<comment>.*) \*/')
 
     for table in ['filter', 'nat']:
-        p = execute('/sbin/iptables -t {} -nvL --line-numbers'.format(table))
+        p = execute('{} -t {} -nvL --line-numbers'.format(IPTABLES, table))
 
         chain = ''
         for line in p.stdout.split('\n'):

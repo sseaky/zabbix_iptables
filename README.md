@@ -29,7 +29,7 @@ The script will be run as user **zabbix**, and invokes command 'iptables' which 
 
 a. Set SUID to iptables
 
-`sudo chmod 4744 /sbin/iptables`
+`sudo chmod 4755 /sbin/iptables`
 
 OR
 
