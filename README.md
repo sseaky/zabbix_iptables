@@ -77,11 +77,11 @@ num   pkts bytes target     prot opt in     out     source               destina
 
 #### Test client
 
-![7](E:\mygit\zabbix_iptables\img\7.png)
+![7](img/7.png)
 
 #### Add discovery rules
 
-![](img/2.png)
+![2](img/2.png)
 
 #### Create rule
 
@@ -103,11 +103,11 @@ Store value = Delta
 
 ## Display
 
-![](img/5.png)
+![5](img/5.png)
 
 
 
-![](E:\mygit\zabbix_iptables\img\6.png)
+![6](img/6.png)
 
 
 
