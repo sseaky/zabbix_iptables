@@ -6,13 +6,19 @@ Discovery items need be monitored automatically.
 
 
 
+## Require
+
+Python3
+
+
+
 ## Depoly
 
 ### Client
 
 #### Install the script
 
-`sudo cp zabbix_iptables.py /usr/bin/`
+`sudo cp zabbix_iptables.py /usr/bin/`  
 `sudo chmod a+x /usr/bin/zabbix_iptables.py`
 
 
