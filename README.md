@@ -1,5 +1,5 @@
 
-## Description
+## About
 Monitor designated packets/bytes of items in iptables by zabbix, such as tcp/udp port flow.
 
 Discovery items need be monitored automatically.
